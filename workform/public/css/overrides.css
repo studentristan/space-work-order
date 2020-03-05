@@ -1,0 +1,94 @@
+@import url(foundation.min.css);
+
+@font-face {
+  font-family: required;
+  src: url(../fonts/Junction-regular.woff2);
+}
+
+@font-face {
+  font-family: "FREEDOM";
+  src: url("../fonts/Freedom-10eM.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.background {
+  background-image: url("../images/ESA_root_pillars.jpg"); }
+
+.asteroids {
+  background-image: url("../images/rubble.png")
+}
+.centerme {
+  text-align: center; }
+
+.edge {
+  background-color: black;
+}
+
+.buttonsofepicness {
+  margin-top: 25px;
+}
+/*# sourceMappingURL=overrides.css.map */
+
+h1 {
+  font-size: 35px;
+  font-family: "FREEDOM", serif;
+}
+
+.white {
+  color: white;
+}
+
+h2 {
+  font-size: 25px;
+  color: white;
+  font-family: "required", serif;
+}
+
+.padit {
+  padding: 26px;
+}
+
+img {
+  width: 100%
+}
+
+body{
+  background-color: black;
+}
+
+@media only screen and (min-width: 499px) {
+  .buttonsofepicness {
+    margin-top: 25px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (min-width: 699px) {
+  .buttonsofepicness {
+    margin-top: 25px;
+  }
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (min-width: 899px) {
+  .buttonsofepicness {
+    margin-top: 25px;
+  }
+  h1 {
+    font-size: 100px;
+  }
+  h2 {
+    font-size: 100px;
+  }
+}
